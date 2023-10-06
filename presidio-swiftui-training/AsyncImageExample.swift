@@ -30,13 +30,24 @@ struct AsyncImageExample: View {
 //        AsyncImage(url: URL(string:imageUrl), scale: 2)
         
         // async image with custom placeholder
-        AsyncImage(url: URL(string:imageUrl)){
-            image in image.imageModifier()
-        } placeholder: {
-            Image(systemName: "photo.circle.fill").iconModifier()
+//        AsyncImage(url: URL(string:imageUrl)){
+//            image in image.imageModifier()
+//        } placeholder: {
+//            Image(systemName: "photo.circle.fill").iconModifier()
+//        }
+//        .padding(40)
+        
+        // Async image with
+        AsyncImage(url: URL(string:imageUrl)){ phase in
+            if let image = phase.image {
+                image.imageModifier() // Displays the loaded image.
+            } else if phase.error != nil {
+                Image(systemName: "ant.circle.fill").iconModifier()
+            } else {
+                Image(systemName: "photo.circle.fill").iconModifier() // Acts as a placeholder.
+            }
         }
         .padding(40)
-            
     }
 }
 
