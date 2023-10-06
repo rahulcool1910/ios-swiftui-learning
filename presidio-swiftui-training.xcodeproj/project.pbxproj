@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		952A2B552AD024560063A2A2 /* CircularImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952A2B542AD024560063A2A2 /* CircularImage.swift */; };
+		9534D6792ACFE325008F0D90 /* RGBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9534D6782ACFE325008F0D90 /* RGBView.swift */; };
+		9534D67B2ACFED2C008F0D90 /* navExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9534D67A2ACFED2C008F0D90 /* navExample.swift */; };
+		9534D67F2AD0029B008F0D90 /* FormExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9534D67E2AD0029B008F0D90 /* FormExample.swift */; };
+		95A2D1222AD040B100CB45B1 /* AsyncImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2D1212AD040B100CB45B1 /* AsyncImageExample.swift */; };
+		95AA6BF22ACFCE5B00C54F7F /* presidio_swiftui_trainingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA6BF12ACFCE5B00C54F7F /* presidio_swiftui_trainingApp.swift */; };
+		95AA6BF42ACFCE5B00C54F7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA6BF32ACFCE5B00C54F7F /* ContentView.swift */; };
+		95AA6BF62ACFCE5E00C54F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AA6BF52ACFCE5E00C54F7F /* Assets.xcassets */; };
+		95AA6BF92ACFCE5E00C54F7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AA6BF82ACFCE5E00C54F7F /* Preview Assets.xcassets */; };
+		95AA6BFB2ACFCE5E00C54F7F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA6BFA2ACFCE5E00C54F7F /* Persistence.swift */; };
+		95AA6BFE2ACFCE5E00C54F7F /* presidio_swiftui_training.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95AA6BFC2ACFCE5E00C54F7F /* presidio_swiftui_training.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		952A2B542AD024560063A2A2 /* CircularImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImage.swift; sourceTree = "<group>"; };
+		9534D6782ACFE325008F0D90 /* RGBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBView.swift; sourceTree = "<group>"; };
+		9534D67A2ACFED2C008F0D90 /* navExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navExample.swift; sourceTree = "<group>"; };
+		9534D67E2AD0029B008F0D90 /* FormExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormExample.swift; sourceTree = "<group>"; };
+		95A2D1212AD040B100CB45B1 /* AsyncImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageExample.swift; sourceTree = "<group>"; };
+		95AA6BEE2ACFCE5B00C54F7F /* presidio-swiftui-training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "presidio-swiftui-training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95AA6BF12ACFCE5B00C54F7F /* presidio_swiftui_trainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = presidio_swiftui_trainingApp.swift; sourceTree = "<group>"; };
+		95AA6BF32ACFCE5B00C54F7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		95AA6BF52ACFCE5E00C54F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95AA6BF82ACFCE5E00C54F7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95AA6BFA2ACFCE5E00C54F7F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		95AA6BFD2ACFCE5E00C54F7F /* presidio_swiftui_training.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = presidio_swiftui_training.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95AA6BEB2ACFCE5B00C54F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95AA6BE52ACFCE5B00C54F7F = {
+			isa = PBXGroup;
+			children = (
+				95AA6BF02ACFCE5B00C54F7F /* presidio-swiftui-training */,
+				95AA6BEF2ACFCE5B00C54F7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95AA6BEF2ACFCE5B00C54F7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95AA6BEE2ACFCE5B00C54F7F /* presidio-swiftui-training.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95AA6BF02ACFCE5B00C54F7F /* presidio-swiftui-training */ = {
+			isa = PBXGroup;
+			children = (
+				95AA6BF12ACFCE5B00C54F7F /* presidio_swiftui_trainingApp.swift */,
+				952A2B542AD024560063A2A2 /* CircularImage.swift */,
+				95A2D1212AD040B100CB45B1 /* AsyncImageExample.swift */,
+				95AA6BF32ACFCE5B00C54F7F /* ContentView.swift */,
+				9534D67E2AD0029B008F0D90 /* FormExample.swift */,
+				9534D6782ACFE325008F0D90 /* RGBView.swift */,
+				9534D67A2ACFED2C008F0D90 /* navExample.swift */,
+				95AA6BF52ACFCE5E00C54F7F /* Assets.xcassets */,
+				95AA6BFA2ACFCE5E00C54F7F /* Persistence.swift */,
+				95AA6BFC2ACFCE5E00C54F7F /* presidio_swiftui_training.xcdatamodeld */,
+				95AA6BF72ACFCE5E00C54F7F /* Preview Content */,
+			);
+			path = "presidio-swiftui-training";
+			sourceTree = "<group>";
+		};
+		95AA6BF72ACFCE5E00C54F7F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				95AA6BF82ACFCE5E00C54F7F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95AA6BED2ACFCE5B00C54F7F /* presidio-swiftui-training */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95AA6C012ACFCE5E00C54F7F /* Build configuration list for PBXNativeTarget "presidio-swiftui-training" */;
+			buildPhases = (
+				95AA6BEA2ACFCE5B00C54F7F /* Sources */,
+				95AA6BEB2ACFCE5B00C54F7F /* Frameworks */,
+				95AA6BEC2ACFCE5B00C54F7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "presidio-swiftui-training";
+			productName = "presidio-swiftui-training";
+			productReference = 95AA6BEE2ACFCE5B00C54F7F /* presidio-swiftui-training.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95AA6BE62ACFCE5B00C54F7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					95AA6BED2ACFCE5B00C54F7F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 95AA6BE92ACFCE5B00C54F7F /* Build configuration list for PBXProject "presidio-swiftui-training" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95AA6BE52ACFCE5B00C54F7F;
+			productRefGroup = 95AA6BEF2ACFCE5B00C54F7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95AA6BED2ACFCE5B00C54F7F /* presidio-swiftui-training */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95AA6BEC2ACFCE5B00C54F7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AA6BF92ACFCE5E00C54F7F /* Preview Assets.xcassets in Resources */,
+				95AA6BF62ACFCE5E00C54F7F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95AA6BEA2ACFCE5B00C54F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9534D6792ACFE325008F0D90 /* RGBView.swift in Sources */,
+				95A2D1222AD040B100CB45B1 /* AsyncImageExample.swift in Sources */,
+				95AA6BFB2ACFCE5E00C54F7F /* Persistence.swift in Sources */,
+				9534D67B2ACFED2C008F0D90 /* navExample.swift in Sources */,
+				95AA6BF42ACFCE5B00C54F7F /* ContentView.swift in Sources */,
+				95AA6BFE2ACFCE5E00C54F7F /* presidio_swiftui_training.xcdatamodeld in Sources */,
+				95AA6BF22ACFCE5B00C54F7F /* presidio_swiftui_trainingApp.swift in Sources */,
+				952A2B552AD024560063A2A2 /* CircularImage.swift in Sources */,
+				9534D67F2AD0029B008F0D90 /* FormExample.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		95AA6BFF2ACFCE5E00C54F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95AA6C002ACFCE5E00C54F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95AA6C022ACFCE5E00C54F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"presidio-swiftui-training/Preview Content\"";
+				DEVELOPMENT_TEAM = NN8WL29R95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.presidio-swiftui-training";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95AA6C032ACFCE5E00C54F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"presidio-swiftui-training/Preview Content\"";
+				DEVELOPMENT_TEAM = NN8WL29R95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.presidio-swiftui-training";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95AA6BE92ACFCE5B00C54F7F /* Build configuration list for PBXProject "presidio-swiftui-training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AA6BFF2ACFCE5E00C54F7F /* Debug */,
+				95AA6C002ACFCE5E00C54F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95AA6C012ACFCE5E00C54F7F /* Build configuration list for PBXNativeTarget "presidio-swiftui-training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AA6C022ACFCE5E00C54F7F /* Debug */,
+				95AA6C032ACFCE5E00C54F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95AA6BFC2ACFCE5E00C54F7F /* presidio_swiftui_training.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95AA6BFD2ACFCE5E00C54F7F /* presidio_swiftui_training.xcdatamodel */,
+			);
+			currentVersion = 95AA6BFD2ACFCE5E00C54F7F /* presidio_swiftui_training.xcdatamodel */;
+			path = presidio_swiftui_training.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 95AA6BE62ACFCE5B00C54F7F /* Project object */;
+}
